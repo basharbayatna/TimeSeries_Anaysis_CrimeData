@@ -26,7 +26,9 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 ### 2. Crime Trends Across Years
 **Overall Trend:** Crime in Chicago has generally been **decreasing** from 2001 to 2022, with some fluctuations. Notable drops occurred around 2017-2018, with a slight uptick in recent years.
 
-![Total Crimes Per Year](images/crimes_per_year.png)
+<img width="1371" height="571" alt="image" src="https://github.com/user-attachments/assets/92e012bb-5368-47c5-9eb1-4f99ea05aa32" />
+
+
 *Figure 2: Total crimes in Chicago from 2001 to 2022 showing overall declining trend*
 
 **Counter-Trend Crimes:** While overall crime decreased, certain crime types showed opposite trends in specific years. For example, some years saw increases in particular crime categories even when total crime was declining, suggesting shifts in criminal activity patterns rather than uniform reduction.
