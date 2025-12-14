@@ -36,7 +36,8 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 ### 3. Rush Hour Crime Patterns
 **PM Rush Hour has More Crime:** Analysis of crimes occurring during rush hours reveals that PM rush hour (4-7 PM) experiences significantly more criminal activity than AM rush hour (7-10 AM).
 
-![Rush Hour Comparison](images/rush_hour_comparison.png)
+<img width="1570" height="571" alt="image" src="https://github.com/user-attachments/assets/1040a280-8da1-4358-b5a9-626dea0d714b" />
+
 *Figure 3: Comparison of crime counts during AM (7-10 AM) vs PM (4-7 PM) rush hours*
 
 **Top 5 AM Rush Hour Crimes:**
