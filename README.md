@@ -1,3 +1,12 @@
+
+
+<img width="1508" height="1005" alt="image" src="https://github.com/user-attachments/assets/6c76e697-15fd-470c-8d55-e77360060bb8" />
+
+
+
+
+
+
 # Chicago Crime Data Time Series Analysis
 
 ## Project Overview
