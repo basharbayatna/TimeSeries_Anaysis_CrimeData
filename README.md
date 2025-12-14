@@ -17,13 +17,22 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Least Crime:** District 31 had the lowest crime count with only 54 incidents, suggesting either effective policing, different community characteristics, or lower population density.
 
+![District Crime Comparison](images/district_comparison.png)
+*Figure 1: Crime distribution across Chicago police districts in 2022*
+
 ### 2. Crime Trends Across Years
 **Overall Trend:** Crime in Chicago has generally been **decreasing** from 2001 to 2022, with some fluctuations. Notable drops occurred around 2017-2018, with a slight uptick in recent years.
+
+![Total Crimes Per Year](images/crimes_per_year.png)
+*Figure 2: Total crimes in Chicago from 2001 to 2022 showing overall declining trend*
 
 **Counter-Trend Crimes:** While overall crime decreased, certain crime types showed opposite trends in specific years. For example, some years saw increases in particular crime categories even when total crime was declining, suggesting shifts in criminal activity patterns rather than uniform reduction.
 
 ### 3. Rush Hour Crime Patterns
 **PM Rush Hour has More Crime:** Analysis of crimes occurring during rush hours reveals that PM rush hour (4-7 PM) experiences significantly more criminal activity than AM rush hour (7-10 AM).
+
+![Rush Hour Comparison](images/rush_hour_comparison.png)
+*Figure 3: Comparison of crime counts during AM (7-10 AM) vs PM (4-7 PM) rush hours*
 
 **Top 5 AM Rush Hour Crimes:**
 1. Theft
@@ -46,6 +55,12 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Lowest Crime Months:** Winter months (January, February) typically have the lowest crime rates, possibly due to colder weather keeping both criminals and potential victims indoors.
 
+![Monthly Crime Distribution](images/monthly_crimes.png)
+*Figure 4: Total crimes per month showing seasonal patterns*
+
+![Top 5 Crimes Monthly Trend](images/top5_crimes_monthly.png)
+*Figure 5: Monthly trends for the top 5 most common crime types*
+
 **Exceptions to the Pattern:** Certain crime types deviate from the general monthly trend. For instance, some property crimes may peak during different months due to seasonal factors like holiday shopping or vacation periods when homes are left unattended.
 
 ### 5. Holiday Crime Analysis
@@ -53,6 +68,9 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 1. **New Year's Day** - High levels of celebratory gatherings and alcohol consumption contribute to increased criminal activity
 2. **Independence Day (July 4th)** - Large public celebrations and fireworks create opportunities for various crimes
 3. **Christmas Day** - Despite being a family-oriented holiday, property crimes and domestic incidents occur
+
+![Holiday Crime Analysis](images/holiday_crimes.png)
+*Figure 6: Crime counts for major US holidays*
 
 **Most Common Crimes on These Holidays:**
 Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
@@ -68,6 +86,12 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 **Trend Component:** The long-term trend shows a general decline in crime over the analysis period, with some stabilization in recent years.
 
 **Cycle Magnitude:** The difference between peak and trough in the seasonal component indicates significant variation in crime rates throughout the year, with predictable patterns that could inform resource allocation.
+
+![Time Series Decomposition](images/time_series_decomposition.png)
+*Figure 7: Seasonal decomposition of daily crime data showing trend, seasonal, and residual components*
+
+![Theft Decomposition](images/theft_decomposition.png)
+*Figure 8: Time series decomposition specifically for theft crimes*
 
 ## Methodology
 The analysis employed several techniques:
@@ -92,6 +116,27 @@ The analysis was conducted using Python with the following libraries:
 - seaborn (statistical visualization)
 - statsmodels (time series analysis)
 - holidays (holiday identification)
+
+## Repository Structure
+```
+chicago-crime-analysis/
+│
+├── images/                          # Visualization outputs
+│   ├── district_comparison.png
+│   ├── crimes_per_year.png
+│   ├── rush_hour_comparison.png
+│   ├── monthly_crimes.png
+│   ├── top5_crimes_monthly.png
+│   ├── holiday_crimes.png
+│   ├── time_series_decomposition.png
+│   └── theft_decomposition.png
+│
+├── data/                            # Crime data files (not included in repo)
+│   └── Chicago-Crime_YYYY.csv
+│
+├── time_series_analysis_crime_data.py  # Main analysis script
+└── README.md                        # This file
+```
 
 ## Future Work
 Potential extensions of this analysis include:
