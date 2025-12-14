@@ -61,11 +61,12 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Lowest Crime Months:** Winter months (January, February) typically have the lowest crime rates, possibly due to colder weather keeping both criminals and potential victims indoors.
 
-![Monthly Crime Distribution](images/monthly_crimes.png)
-*Figure 4: Total crimes per month showing seasonal patterns*
+<img width="1171" height="571" alt="image" src="https://github.com/user-attachments/assets/6b01a8a8-74b9-4665-b380-679989bef559" />
 
-![Top 5 Crimes Monthly Trend](images/top5_crimes_monthly.png)
-*Figure 5: Monthly trends for the top 5 most common crime types*
+
+*Figure 4: Total crimes per month showing seasonal patterns and Monthly trends for the top 5 most common crime types*
+
+
 
 **Exceptions to the Pattern:** Certain crime types deviate from the general monthly trend. For instance, some property crimes may peak during different months due to seasonal factors like holiday shopping or vacation periods when homes are left unattended.
 
