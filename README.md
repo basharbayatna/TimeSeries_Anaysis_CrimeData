@@ -80,7 +80,8 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 2. **Independence Day (July 4th)** - Large public celebrations and fireworks create opportunities for various crimes
 3. **Christmas Day** - Despite being a family-oriented holiday, property crimes and domestic incidents occur
 
-![Holiday Crime Analysis](images/holiday_crimes.png)
+<img width="1371" height="571" alt="image" src="https://github.com/user-attachments/assets/71c72212-8d01-46ba-8c2b-7d6ea8744650" />
+
 *Figure 6: Crime counts for major US holidays*
 
 **Most Common Crimes on These Holidays:**
@@ -98,10 +99,12 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 **Cycle Magnitude:** The difference between peak and trough in the seasonal component indicates significant variation in crime rates throughout the year, with predictable patterns that could inform resource allocation.
 
-![Time Series Decomposition](images/time_series_decomposition.png)
+<img width="1371" height="990" alt="image" src="https://github.com/user-attachments/assets/320a0323-1a45-4386-9a97-581b67941fa9" />
+
 *Figure 7: Seasonal decomposition of daily crime data showing trend, seasonal, and residual components*
 
-![Theft Decomposition](images/theft_decomposition.png)
+<img width="1371" height="990" alt="image" src="https://github.com/user-attachments/assets/d3e020db-4151-4671-995c-de41c66cce6f" />
+
 *Figure 8: Time series decomposition specifically for theft crimes*
 
 ## Methodology
