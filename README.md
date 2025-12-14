@@ -132,3 +132,8 @@ The analysis was conducted using Python with the following libraries:
 - holidays (holiday identification)
 
 
+ ##  Contact
+- **Bashar Bayatna**, Mechatronics Engineer | Junior Data Scientist  
+- Email: [Basharbayatna11@gmail.com](mailto:Basharbayatna11@gmail.com)
+
+
