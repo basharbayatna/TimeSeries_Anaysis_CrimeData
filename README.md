@@ -17,7 +17,10 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Least Crime:** District 31 had the lowest crime count with only 54 incidents, suggesting either effective policing, different community characteristics, or lower population density.
 
-![District Crime Comparison](images/district_comparison.png)
+<img width="1371" height="571" alt="image" src="https://github.com/user-attachments/assets/4906f1b5-11d5-492f-a563-459150f221ce" />
+
+
+
 *Figure 1: Crime distribution across Chicago police districts in 2022*
 
 ### 2. Crime Trends Across Years
