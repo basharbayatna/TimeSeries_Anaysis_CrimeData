@@ -140,9 +140,9 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 - **Model Performance:** Low error metrics demonstrate strong predictive accuracy
 
 **Diagnostic Assessment:**
-- ✅ Residuals approximately normally distributed
-- ✅ No significant autocorrelation remaining
-- ✅ Stable variance over forecast period
+- Residuals approximately normally distributed
+- No significant autocorrelation remaining
+- Stable variance over forecast period
 
 **Visualization:**
 <img width="877" height="415" alt="image" src="https://github.com/user-attachments/assets/a5d14147-10d8-496a-9257-c23d10bbf797" />
@@ -168,7 +168,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 - **Percentage Change:** ±2% variation anticipated
 - **Seasonal Influence:** Model captures strong seasonal component suggesting slight summer uptick
 - **Model Performance:** Auto-ARIMA achieved lower error metrics than manual specification
-
+  
 **Diagnostic Assessment:**
 - ✅ All diagnostic tests passed
 - ✅ Model residuals show no patterns
