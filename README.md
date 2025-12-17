@@ -21,7 +21,7 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 ## Key Findings
 
-### 1. Police District Analysis (2022)
+###  Police District Analysis (2022)
 **Most Crime:** District 8 recorded the highest number of crimes in 2022 with 15,116 incidents, indicating it as a high-priority area for law enforcement resources.
 
 **Least Crime:** District 31 had the lowest crime count with only 54 incidents, suggesting either effective policing, different community characteristics, or lower population density.
@@ -32,7 +32,7 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 *Figure 1: Crime distribution across Chicago police districts in 2022*
 
-### 2. Crime Trends Across Years
+### Crime Trends Across Years
 **Overall Trend:** Crime in Chicago has generally been **decreasing** from 2001 to 2022, with some fluctuations. Notable drops occurred around 2017-2018, with a slight uptick in recent years.
 
 <img width="1371" height="571" alt="image" src="https://github.com/user-attachments/assets/92e012bb-5368-47c5-9eb1-4f99ea05aa32" />
@@ -42,7 +42,7 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Counter-Trend Crimes:** While overall crime decreased, certain crime types showed opposite trends in specific years. For example, some years saw increases in particular crime categories even when total crime was declining, suggesting shifts in criminal activity patterns rather than uniform reduction.
 
-### 3. Rush Hour Crime Patterns
+###  Rush Hour Crime Patterns
 **PM Rush Hour has More Crime:** Analysis of crimes occurring during rush hours reveals that PM rush hour (4-7 PM) experiences significantly more criminal activity than AM rush hour (7-10 AM).
 
 <img width="1570" height="571" alt="image" src="https://github.com/user-attachments/assets/1040a280-8da1-4358-b5a9-626dea0d714b" />
@@ -65,7 +65,7 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Motor Vehicle Theft:** More common during AM rush hour, suggesting criminals target vehicles when owners are at work or away from their cars for extended periods.
 
-### 4. Monthly Crime Patterns
+### Monthly Crime Patterns
 **Highest Crime Months:** Summer months (July, August) consistently show the highest crime rates, likely due to increased outdoor activity, warmer weather, and more opportunities for crime.
 
 **Lowest Crime Months:** Winter months (January, February) typically have the lowest crime rates, possibly due to colder weather keeping both criminals and potential victims indoors.
@@ -83,7 +83,7 @@ The analysis uses Chicago crime data spanning from 2001 to 2022, with each year 
 
 **Exceptions to the Pattern:** Certain crime types deviate from the general monthly trend. For instance, some property crimes may peak during different months due to seasonal factors like holiday shopping or vacation periods when homes are left unattended.
 
-### 5. Holiday Crime Analysis
+###  Holiday Crime Analysis
 **Top 3 Holidays with Most Crime:**
 1. **New Year's Day** - High levels of celebratory gatherings and alcohol consumption contribute to increased criminal activity
 2. **Independence Day (July 4th)** - Large public celebrations and fireworks create opportunities for various crimes
@@ -101,7 +101,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 - Assault
 - Narcotics violations
 
-### 6. Time Series Decomposition
+### Time Series Decomposition
 **Seasonal Patterns:** The decomposition analysis reveals strong seasonal patterns in Chicago crime data, with clear yearly cycles that repeat consistently.
 
 **Trend Component:** The long-term trend shows a general decline in crime over the analysis period, with some stabilization in recent years.
@@ -183,7 +183,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 4.  Strategic Recommendations
+### Strategic Recommendations
 
 
 
@@ -234,7 +234,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 5.  Technical Methodology
+### Technical Methodology
 
 
 
@@ -282,7 +282,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 6.  Future Enhancements
+### Future Enhancements
 
 
 
@@ -298,7 +298,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 7.  Key Performance Indicators
+### Key Performance Indicators
 
 
 
@@ -317,7 +317,7 @@ The forecasting models demonstrated strong predictive performance:
 
 ---
 
-### 8.  Project Outcomes
+### Project Outcomes
 
 
 
