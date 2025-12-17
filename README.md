@@ -116,13 +116,6 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 *Figure 8: Time series decomposition specifically for theft crimes*
 
-## Methodology
-The analysis employed several techniques:
-- **Exploratory Data Analysis (EDA):** Counting, grouping, and comparing crime frequencies across different dimensions
-- **Time Series Analysis:** Examining trends over time, identifying patterns in daily, monthly, and yearly data
-- **Seasonal Decomposition:** Breaking down the time series into trend, seasonal, and residual components to understand underlying patterns
-- **Comparative Analysis:** Comparing crime rates across different time periods, locations, and circumstances
-
 
 
 
@@ -130,6 +123,10 @@ The analysis employed several techniques:
 ##  Forecasting Results: 6-Month Predictions
 
 ### Theft Crime Forecast
+
+<img width="1032" height="415" alt="image" src="https://github.com/user-attachments/assets/ee317c58-3cf6-4be3-ac18-38654a566fb6" />
+
+*Figure 9: Monthly Theft Crimes Counts Across the Years*
 
 **Model Used:** SARIMA (Seasonal AutoRegressive Integrated Moving Average)
 - **Model Specification:** SARIMA(1,1,0)(1,0,0)[12]
@@ -148,12 +145,18 @@ The analysis employed several techniques:
 - ✅ Stable variance over forecast period
 
 **Visualization:**
-![Theft Forecast](image_placeholder)
-*6-Month Theft Crime Forecast with Confidence Intervals*
+<img width="877" height="415" alt="image" src="https://github.com/user-attachments/assets/a5d14147-10d8-496a-9257-c23d10bbf797" />
+
+
+*Figure 10: 6-Month Theft Crime Forecast with Confidence Intervals*
 
 ---
 
 ### Battery Crime Forecast
+
+<img width="1032" height="338" alt="image" src="https://github.com/user-attachments/assets/74f12fbb-30fa-4e9e-be09-dae133fbe5d7" />
+
+*Figure 11: Monthly Battery Crimes Counts Across the Years*
 
 **Model Used:** SARIMA with Auto-ARIMA optimization
 - **Model Specification:** SARIMA(1,1,1)(1,0,1)[12]
@@ -172,8 +175,9 @@ The analysis employed several techniques:
 - ✅ Reliable for short-term forecasting
 
 **Visualization:**
-![Battery Forecast](image_placeholder)
-*6-Month Battery Crime Forecast with Confidence Intervals*
+<img width="882" height="415" alt="image" src="https://github.com/user-attachments/assets/84160a4c-fab2-470d-b16a-eaa05317f019" />
+
+*Figure 12: 6-Month Battery Crime Forecast with Confidence Intervals*
 
 
 ---
