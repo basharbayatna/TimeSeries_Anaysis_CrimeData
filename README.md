@@ -170,9 +170,10 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 - **Model Performance:** Auto-ARIMA achieved lower error metrics than manual specification
   
 **Diagnostic Assessment:**
-- ✅ All diagnostic tests passed
-- ✅ Model residuals show no patterns
-- ✅ Reliable for short-term forecasting
+
+- All diagnostic tests passed
+- Model residuals show no patterns
+- Reliable for short-term forecasting
 
 **Visualization:**
 <img width="882" height="415" alt="image" src="https://github.com/user-attachments/assets/84160a4c-fab2-470d-b16a-eaa05317f019" />
@@ -182,7 +183,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 4.  Strategic Recommendations**
+### 4.  Strategic Recommendations
 
 
 
@@ -233,7 +234,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 5.  Technical Methodology**
+### 5.  Technical Methodology
 
 
 
@@ -281,7 +282,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 6.  Future Enhancements**
+### 6.  Future Enhancements
 
 
 
@@ -297,7 +298,7 @@ Each of the top 3 holidays showed similar patterns with the top 5 crimes being:
 
 ---
 
-### 7.  Key Performance Indicators**
+### 7.  Key Performance Indicators
 
 
 
@@ -316,7 +317,7 @@ The forecasting models demonstrated strong predictive performance:
 
 ---
 
-### 8.  Project Outcomes**
+### 8.  Project Outcomes
 
 
 
